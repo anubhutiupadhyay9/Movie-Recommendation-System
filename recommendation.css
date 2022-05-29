@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./bg.jpeg');
+}
+h1 {
+  text-align: center;
+}
+input {
+  height: 40px;
+  width: 40%;
+  transform: translate(-50%, 50%);
+  position: relative;
+  left: 50%;
+}
+div {
+  width: 40%;
+  max-height: 50vh;
+  overflow: auto;
+  position: relative;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%, 20px);
+  padding: 1px 2px;
+}

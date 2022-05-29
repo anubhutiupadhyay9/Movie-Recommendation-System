@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="recommendation.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="movie-collection.js"></script>
+    <script src="recommendation.js"></script>
+  </head>
+  <body>
+    <h1>Movie Recommendation System</h1>
+    <input
+      type="text"
+      placeholder="Enter Movie Name"
+      id="movie_input"
+      onkeyup="suggestMovie()"
+    />
+    <div id="show_movies"></div>
+  </body>
+</html>
